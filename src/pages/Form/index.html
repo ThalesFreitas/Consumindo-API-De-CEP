@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link href="./Responsive/style.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://digitalbush.com/files/jquery/maskedinput/rc3/jquery.maskedinput.js" type="text/javascript"></script>
+
+
+    <title>Consumindo API de Cep</title>
+   
+</head>
+<body>
+    <main>
+        <form action="#" method="POST">
+           
+                <p><b>Cadastro</b></p>
+                <div class="personal_data">
+                    <label for="name">
+                        <span>Nome</span>
+                        <input type="text" id="name" name="name" 
+                        placeholder="Nome Completo"
+                        tabindex="1"
+                        >
+                    </label>
+                    
+                    <label for="email">
+                        <span>E-mail</span>
+                        <input type="email" id="email" name="email" 
+                        placeholder="nome@exemplo.com"
+                        tabindex="2"
+                        >
+                    </label>
+
+                    <label for="cpf" class="cpf">
+                        <span>CPF</span>
+                        <input type="text" id="cpf" name="cpf" maxlength="14"
+                        placeholder="000.000.000-00"
+                        onfocus=" mask_cpf_focus()"
+                        onkeypress="mask_cpf()"
+                        tabindex="3"
+                        >
+                    </label>
+
+                    <label for="birth_date" class="birth_date">
+                        <span>Data de Nascimento</span>
+                        <input type="date" id="birth_date" name="birth_date" 
+                        tabindex="4"
+                        >
+                    </label>
+                    
+                    <label for="phone" class="phone">
+                        <span>Telefone</span>
+                        <input type="tel" id="phone" name="phone" maxlength="14"
+                        pattern="\([0-9]{2}\) [9]{1}[0-9]{4}-[0-9]{4}"   
+                        placeholder="(DD) 9xxxx-xxxx "
+                        tabindex="5"
+                        
+                        >
+                    </label>
+
+                </div>
+                
+                <div class="endereco">
+                    <p><b>Endereço</b></p>
+                    <label for="cep" class="cep">
+                        <span>Cep</span>
+                        <input type="text" id="cep" name="cep"
+                        placeholder="00000-000"
+                         maxlength="9" tabindex="6">
+                    </label>
+                    
+                    <label for="cidade" class="localidade">
+                        <span>Cidade</span>
+                        <input type="text" id="localidade" name="cidade" value="">
+                    </label>
+
+                    <label for="estado" class="uf">
+                        <span>Estado</span>
+                        <input type="text" id="uf" name="estado" >
+                    </label>
+    
+                    <label for="logradouro" class="logradouro">
+                        <span>Rua</span>
+                        <input type="text" id="logradouro" name="logradouro">
+                    </label>
+                    
+                    <label for="numero">
+                        <span>Nº</span>
+                        <input type="text" id="numero" name="numero" tabindex="7">
+                    </label>
+
+                    <label for="bairro" class="bairro">
+                        <span>Bairro</span>
+                        <input type="text" id="bairro" name="bairro">
+                    </label>
+
+                    <label for="complement" class="complement">
+                        <span>Complemento</span>
+                        <input type="text" id="complement" name="complement"
+                        placeholder="Ex: Apto, Casa ..."
+                        tabindex="8">
+                    </label>
+
+                    <div id="div_button">
+                        <input type="submit" value="Cadastrar" name="button">
+                    </div>
+                   
+                     
+                </div>
+        </form>
+     
+     </main>
+</body>
+<script src="../Form/index.js"></script>
+<script src="./Mask/mask.js"></script>
+
+</html>
+
+
+

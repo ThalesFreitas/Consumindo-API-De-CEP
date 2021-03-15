@@ -1,0 +1,244 @@
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+ }
+ 
+html,
+body {
+     background: #4B0082; 
+     height: 100vh;
+     width: 100vw;
+     font-family: 'Roboto'; 
+     border:none;    
+ }
+
+ body {
+    font-size: 1rem;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+ }
+ 
+ main {
+   
+   display: flex;
+    width: 600px;
+    height: 96%;
+    align-items: start;
+    justify-content: center; 
+    margin-top: 0.4rem;   
+ }
+ form {
+    background: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    width: 36.2rem;
+    
+ }
+/*Configuração padrão das label*/
+ label{
+    margin: 25px 0 0 10px;
+ }
+
+ /*Configuração padrão dos input*/
+ input {
+     background: #FFFFFF;
+     color: #000000;
+     border: solid 2px  rgba(49, 0, 95, 0.867);
+     border-radius: 8px;
+     width: 300px;
+     height: 40px;
+     padding: 0 0.5rem;
+     outline: none;
+     margin-left: 5px;
+     font-size: 1rem;
+ }
+
+/*p do cadastro*/
+ form > p {
+    padding: 10px;
+    text-align: center;
+    color: #4B0082;
+    font-size: 25px;
+ }
+
+ /*Div dos dados pessoais*/
+ .personal_data {
+    margin: 15px 0 auto;
+    color: #4B0082;
+    
+ }
+
+ /*input dos Dados Pessoais*/
+ .personal_data input{
+    margin: 10px auto;
+}
+
+/*input name*/
+#name{
+    width: 514px;
+    /* width: 37.6vw; */
+    
+}
+
+/*input email*/
+#email {
+    /* width: 22.5vw; */
+    width: 308.25px;
+}
+
+/*label cpf*/
+.cpf {
+margin-left: 2px;
+}
+
+/*input cpf*/
+#cpf{
+    /* width: 11.6vw; */
+    width: 158.92px;
+    margin-left: 2px;
+}
+
+/*input data de nascimento*/
+#birth_date{
+    /* width: 12.6vw; */
+    width: 172.12px;
+}
+
+/*label do telefone*/
+.phone {
+    margin-left: 2px;
+}
+
+/*input do telefone*/
+#phone{
+    /* width: 10.5vw; */
+    width: 143.43px;
+    margin-left: 2px;
+}
+
+/*Endereço*/
+
+.endereco  {
+    width: 586px;
+    height: 360px;
+    
+    
+    margin: 15px 2px 0px 2px;
+    padding: 10px;
+    color: #4B0082;
+    
+    
+}
+
+.endereco p {
+    margin-left: -7px;
+    font-size: 20px;
+}
+
+
+.endereco input {
+    margin-left: 2px;  
+}
+
+.cep {
+    margin-left: -5px;
+}
+
+#cep {
+    margin: 20px auto;
+    width: 96px;
+    /* width: 6rem; */
+    
+}
+
+.localidade {
+    margin-left: 1px;
+}
+
+#localidade {
+    margin-left: 0px;
+    /* width: 18.5vw;    */
+    width: 252.71px;
+}
+
+.uf {
+    margin-left: 5px;
+}
+
+#uf {
+    margin-left: 0px;
+    /* width: 3.5vw; */
+    width: 47.81px;
+
+}
+
+.logradouro {
+margin-left: -5px;
+}
+
+#logradouro {
+    /* width: 24.2rem; */
+    width: 387.2px;
+
+}
+
+#numero {
+    /* width: 6rem; */
+    width: 96px;
+}
+
+.bairro {
+    margin-left: -5px; 
+}
+#bairro {
+    margin-top: 20px;
+    /* width: 12rem; */
+    width: 250px;
+}
+
+.complement {
+    display: block;
+    margin-left: -5px;
+}
+
+#complement {
+    
+    /* width: 14vw; */
+    margin-top: 8px;
+    width: 450px;
+
+}
+
+#div_button {
+    height: 8vh;
+    margin-top: 1.5vh;
+    text-align: center;
+}
+
+#div_button input{
+
+ width: 180px;
+ margin-top: 0.5vh;
+ text-align: center;
+ border: 2.7px solid #4B0082;
+ border-radius: 6px;
+ font-size: 20px;
+ font-weight: bold;
+ background: chartreuse;
+ color: #4B0082 ;
+ transition-duration: 0.4s;
+}
+#div_button input:hover {
+    background-color: rgb(97, 194, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+ 
