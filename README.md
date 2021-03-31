@@ -1,7 +1,8 @@
 # Consumindo Api de Cep
 
 ## Formulário de cadastro com busca de endereço atraves da api viacep 
-licença
+[![NPM](https://img.shields.io/npm/l/formulario)](https://github.com/ThalesFreitas/Consumindo-API-De-CEP/blob/master/LICENSE)
+
 
 ## Layout mobile
 
