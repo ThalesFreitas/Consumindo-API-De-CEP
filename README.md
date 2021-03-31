@@ -1,11 +1,10 @@
 # Consumindo Api de Cep
 
-## Formulário de cadastro com busca de endereço atraves da api viacep 
+## Formulário de cadastro com busca de endereço através da api viacep 
 [![NPM](https://img.shields.io/npm/l/formulario)](https://github.com/ThalesFreitas/Consumindo-API-De-CEP/blob/master/LICENSE)
 
 ## Sobre o projeto
 Projeto criado para estudar a implementação de consumo de Api externa 
-A criação desse formulário teve como objetivo, estudar a parte de consumo de api externa.
 
 ## Layout mobile
 
