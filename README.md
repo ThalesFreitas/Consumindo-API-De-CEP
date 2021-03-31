@@ -23,7 +23,7 @@ git clone https://github.com/ThalesFreitas/Consumindo-API-De-CEP
 # executar o projeto
 yarn start
 
-# abrir o arquivo index.html
+abrir o arquivo index.html
 
 ```
 
