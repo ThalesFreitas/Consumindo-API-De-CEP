@@ -8,6 +8,9 @@ Projeto criado para estudar a implementação de consumo de Api externa
 
 ## Layout mobile
 
+![Mobile1](https://github.com/ThalesFreitas/Consumindo-API-De-CEP/blob/master/assets/mobile1.png)
+
+![Mobile2](https://github.com/ThalesFreitas/Consumindo-API-De-CEP/blob/master/assets/mobile2.png)
 
 ## Layout web
 
